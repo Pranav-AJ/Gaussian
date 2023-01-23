@@ -8,8 +8,8 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
 ## Algorithm
-1. 
-2. 
+1.Import numpy library
+2.
 3. 
 4. 
 
@@ -34,7 +34,6 @@ for i in range(n):
         ratio=a[j][i]/a[i][i]
         for k in range(n+1):
             a[j][k]=a[j][k] - ratio*a[i][k]
-#back substitution
 x[n-1]=a[n-1][n]/a[n-1][n-1]
 for i in range(n-2,-1,-1):
     x[i]= a[i][n]
